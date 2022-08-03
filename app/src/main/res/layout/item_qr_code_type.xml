@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+    <ImageView
+        android:id="@+id/icon_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_email"
+        android:layout_marginStart="@dimen/dimen_m"
+        android:layout_marginTop="@dimen/dimen_s"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/type_qr_tv"/>
+
+
+    <TextView
+        android:id="@+id/type_qr_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:drawableEnd="@drawable/ic_chevron_right"
+        android:drawablePadding="@dimen/dimen_s"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dimen_xss"
+        android:paddingLeft="@dimen/dimen_xs"
+        android:textSize="@dimen/dimen_ml"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Ел. адрес" />
+
+    </LinearLayout>
+</layout>

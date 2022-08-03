@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainNavFragment">
+
+
+    <fragment
+        android:id="@+id/mainNavFragment"
+        android:name="asta.mobi.qrscanner_native.ui.main.MainNavFragment"
+        android:label="MainNavFragment"
+        tools:layout="@layout/fragment_main_nav">
+
+        <action
+            android:id="@+id/action_createQrFragment_to_createQrCodeFragment2"
+            app:destination="@id/createQrCodeFragment2" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/createQrCodeFragment2"
+        android:name="asta.mobi.qrscanner_native.ui.main.create.info.CreateQrCodeFragment"
+        android:label="CreateQrCodeFragment"
+        tools:layout="@layout/fragment_create_qr_code">
+
+        <argument
+            android:name="qr_code"
+            app:argType="asta.mobi.qrscanner_native.model.QrCode" />
+
+        <action
+            android:id="@+id/action_createQrCodeFragment2_to_generatedQrCodeFragment"
+            app:destination="@id/generatedQrCodeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/generatedQrCodeFragment"
+        android:name="asta.mobi.qrscanner_native.ui.main.create.GeneratedQrCodeFragment"
+        android:label="fragment_generated_qr_code"
+        tools:layout="@layout/fragment_generated_qr_code" >
+        <argument
+            android:name="qr_code_info"
+            app:argType="asta.mobi.qrscanner_native.model.QrCodeInfo" />
+    </fragment>
+
+</navigation>

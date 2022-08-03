@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">QRScanner</string>
+    <string name="create_check">Створити чек</string>
+    <string name="history">Історія</string>
+    <string name="create">Створення</string>
+    <string name="favourite">Вибране</string>
+    <string name="settings">Налаштування</string>
+    <string name="scan">Сканування</string>
+
+    <string name="barcode">Штрих-код</string>
+    <string name="qr_code">QR код</string>
+    <string name="code">Код</string>
+    <string name="to_create">Створіть</string>
+
+    <string name="email">Ел. адреса</string>
+    <string name="sms">Повідомлення</string>
+    <string name="geo">Місце знаходження</string>
+    <string name="calendar_event">Подія</string>
+    <string name="contact_info">Контакт</string>
+    <string name="phone">Телефон</string>
+    <string name="text">Текст</string>
+    <string name="wi_fi">Вай-фай</string>
+    <string name="url">Веб-сайт</string>
+
+    <string name="aztec">Aztec</string>
+    <string name="codabar">Codabar</string>
+    <string name="code_39">Code 39</string>
+    <string name="code_93">Code 93</string>
+    <string name="code_128">Code 128</string>
+    <string name="data_matrix">Data Matrix</string>
+    <string name="ean_8">Ean 8</string>
+    <string name="ean_13">Ean 13</string>
+    <string name="itf">Itf</string>
+    <string name="pdf_417">Pdf 417</string>
+    <string name="upc_a">Upc A</string>
+    <string name="upc_e">Upc E</string>
+
+    <string name="create_qr_code">Створення QR коду</string>
+    <string name="whom">Кому</string>
+    <string name="subject">Тема</string>
+    <string name="message_subject">Тема повідомлення</string>
+    <string name="latitude">Широта</string>
+    <string name="longitude">Довгота</string>
+    <string name="query">Запит</string>
+    <string name="title">Заголовок</string>
+    <string name="location">Локація</string>
+    <string name="description">Опис</string>
+    <string name="begin_time">Початок</string>
+    <string name="end_time">Кінець</string>
+    <string name="full_name">Повне ім\'я</string>
+    <string name="address">Адреса</string>
+    <string name="import_contact_list">Список контактів</string>
+    <string name="enter_your_number">Введіть номер телефону</string>
+    <string name="import_">Імпорт</string>
+    <string name="ssid">SSID</string>
+    <string name="password">Пароль</string>
+    <string name="wpa_wpa2">WPA/WPA2</string>
+    <string name="wep">WEP</string>
+    <string name="none">None</string>
+    <string name="http">http://</string>
+    <string name="done">Виконано</string>
+    <string name="share">Поділитись</string>
+
+
+</resources>

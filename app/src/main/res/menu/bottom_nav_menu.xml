@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="@string/history"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/createQrFragment"
+        android:icon="@drawable/ic_baseline_qr_code_24"
+        android:title="@string/create"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/placeholder"
+        android:title=""
+        android:enabled="false"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/favoritesFragment"
+        android:icon="@drawable/ic_baseline_star_outline_24"
+        android:title="@string/favourite"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>
